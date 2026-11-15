@@ -15,7 +15,7 @@ function App() {
         </div>
       )}
 
-      <main className={`flex-1 overflow-y-auto ${isMobile ? "pb-[60px]" : ""}`}>
+      <main className={`flex-1 min-w-0 overflow-y-auto overflow-x-hidden ${isMobile ? "pb-[60px]" : ""}`}>
         <AppRouter />
       </main>
 
