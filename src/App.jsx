@@ -5,7 +5,7 @@ import MobileNavBar from './components/MobileNavBar';
 import useMediaQuery from './hooks/useMediaQuery';
 
 function App() {
-  const isMobile = useMediaQuery('(max-width: 1089px)');
+  const isMobile = useMediaQuery('(max-width: 1064px)');
 
   return (
     <div className={isMobile ? "flex flex-col h-full" : "flex h-full"}>
