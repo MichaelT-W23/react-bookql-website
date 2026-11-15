@@ -11,3 +11,14 @@ body,
   overflow: hidden;
   overscroll-behavior: none;
 }
+
+main {
+  overscroll-behavior: none;
+  touch-action: pan-y;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
